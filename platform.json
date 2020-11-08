@@ -52,7 +52,7 @@
       "type": "framework",
       "optional": true,
       "owner": "mjxkill",
-      "version": "https://github.com/Mjxkill/framework-arduinoespressif8266-mjxkill.git"
+      "version": "https://github.com/Mjxkill/framework-arduinoespressif8266-mjxkill.git#2.7.4"
     },
     "framework-esp8266-rtos-sdk": {
       "type": "framework",
