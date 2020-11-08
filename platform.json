@@ -20,8 +20,9 @@
   "version": "2.6.2",
   "frameworks": {
     "arduino": {
-      "package": "framework-arduinoespressif8266",
+      "package": "framework-arduinoespressif8266-mjxkill",
       "script": "builder/frameworks/arduino.py"
+      "version": "https://github.com/Mjxkill/framework-arduinoespressif8266-mjxkill.git"
     },
     "simba": {
       "package": "framework-simba",
