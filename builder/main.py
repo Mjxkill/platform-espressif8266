@@ -302,7 +302,7 @@ if upload_protocol == "espota":
             "espressif8266.html#over-the-air-ota-update\n")
     env.Replace(
         UPLOADER=join(
-            platform.get_package_dir("framework-arduinoespressif8266") or "",
+            platform.get_package_dir("framework-arduinoespressif8266-mjxkill") or "",
             "tools", "espota.py"),
         UPLOADERFLAGS=["--debug", "--progress", "-i", "$UPLOAD_PORT"],
         UPLOADCMD='"$PYTHONEXE" "$UPLOADER" $UPLOADERFLAGS -f $SOURCE'
